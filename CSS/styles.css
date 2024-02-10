@@ -1,0 +1,136 @@
+*{
+    font-family: 'KoHo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    background-color: rgba(238, 240, 251, 1);
+ 
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(18, 18, 18, 0.8);
+    color: white;
+    height: 100px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+nav a{
+    color: white;
+    padding-left: 25px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav h1{
+    font-weight: 400;
+    font-size: 40px;
+    padding-right: 62%;
+}
+
+.mainT{
+    display: flex;
+    flex-direction: column;
+    width: 618px;
+    position: absolute;
+    left: 52px;
+    top: 300px;
+}
+
+.content01 p {
+    font-size: 22px;
+}
+
+.content01 h1{
+    font-size: 120px;
+    font-weight: 700;
+    color: rgba(17, 36, 78, 1);
+
+}
+
+.content01 h2{
+    font-size: 100px;
+    font-weight: 700;
+    color: rgba(17, 36, 78, 1);
+}
+.mainImg {
+  position: absolute;
+  right: 40px;
+  top: 149px;
+  width: 800px;
+}
+
+.about{
+    background-color: #202127;      
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 1010px;
+    top: 100%;  
+}
+
+.part01{
+    width: 642px;
+    display: flex;
+    flex-direction: column;
+    gap: 87px;
+    justify-content: center;
+    margin-left: 52px;
+}
+
+.part01 h2{
+    font-size: 75px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.part01 p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.part02{
+    position: absolute;
+    top: 18%;
+    right: 0;
+    width: 500px;
+    height: 664px;
+}
+
+.about02 div{
+    margin-bottom: 50px;
+    width: 443px;
+}
+
+.about02 p{
+    color: white;
+    font-size: 20px;
+    font-family: 100;
+}
+
+.about02 h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.icons {
+    position: absolute;
+    right: 30%;
+    top: 24%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    width: 55px;
+    color: white;
+}
