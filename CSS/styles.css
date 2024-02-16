@@ -464,3 +464,22 @@ main {
     align-items: center;
 }
 
+.education h2 {
+    font-size: 75px;
+    color: #eef0fb;
+    font-weight: 700;
+    margin-top: 200px;
+}
+
+.education div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+    ;
+}
+
+.education img {
+    border-radius: 10px;
+    width: 350px;
+}
+
